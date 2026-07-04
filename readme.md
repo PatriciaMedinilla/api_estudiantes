@@ -28,22 +28,11 @@ Uso de comandos para manipulación de datos quemados de un arreglo:
 
 | Comandos | Descripción |
 |---|---|
-|GET all: |Sirvirá para recuperar una lista completa de recursos 
-(como id, nombre, edad y correo) desde el servidor. Se implementa usando el 
-método app.get() o un enrutador (router.get()), definiendo la ruta y una función de callback que devuelve los datos. |
-
-|GET by id:| sirve para obtener un registro específico. Para lograrlo, se definen rutas 
-con parámetros (req.params) y se captura el identificador dinámico de la URL. |
-
-|POST:| Permite enviar datos desde el cliente (como formularios o JSON) 
-al servidor para ser procesados o guardados. Para leer estos datos correctamente,
-debes utilizar el middleware.|
-
-|PUT:| Su propósito principal es actualizar o reemplazar por completo un recurso 
-existente en el servidor.|
- 
-|DELETE:| para eliminar recursos específicos del servidor. Por lo general, requiere un parámetro identificador (como un :id) en la URL 
-para saber exactamente qué elemento borrar.|
+|GET all: |Sirvirá para recuperar una lista completa de recursos (como id, nombre, edad y correo) desde el servidor. Se implementa usando el método app.get() o un enrutador (router.get()), definiendo la ruta y una función de callback que devuelve los datos. |
+|GET by id:| sirve para obtener un registro específico. Para lograrlo, se definen rutas con parámetros (req.params) y se captura el identificador dinámico de la URL. |
+|POST:| Permite enviar datos desde el cliente (como formularios o JSON) al servidor para ser procesados o guardados. Para leer estos datos correctamente, debes utilizar el middleware.|
+|PUT:| Su propósito principal es actualizar o reemplazar por completo un recurso existente en el servidor.| 
+|DELETE:| para eliminar recursos específicos del servidor. Por lo general, requiere un parámetro identificador (como un :id) en la URL para saber exactamente qué elemento borrar.|
 
 ---
 
