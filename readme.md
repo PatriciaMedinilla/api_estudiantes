@@ -1,4 +1,4 @@
-# 🏨 API REST — Express.js
+# 🏨 API ESTUDANTES — Express.js
 
 Tarea en Express sobre configuración del entorno backend con Node.js/npm y 
 construcción del primer servidor con Express.js que responde peticiones HTTP.
